@@ -376,6 +376,12 @@ function App() {
         </div>
       </section>
 
+      {/* QR Code */}
+      <div className="text-center py-8">
+        <h3 className="text-2xl font-bold text-stone-900 mb-4">Scan Me for Menu</h3>
+        <img src="/myqr.png" alt="QR Code" className="mx-auto w-64 h-64" />
+      </div>
+
       {/* Footer */}
       <footer className="bg-stone-900 text-white">
         <div className="max-w-6xl mx-auto px-6 py-12">
